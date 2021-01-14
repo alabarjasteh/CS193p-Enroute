@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614A36BC25B03B2800B959A4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614A36BB25B03B2800B959A4 /* MapView.swift */; };
 		618182F225AC476A0051CBAA /* EnrouteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618182F125AC476A0051CBAA /* EnrouteApp.swift */; };
 		618182F425AC476A0051CBAA /* FlightsEnrouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618182F325AC476A0051CBAA /* FlightsEnrouteView.swift */; };
 		618182F625AC476A0051CBAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618182F525AC476A0051CBAA /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		614A36BB25B03B2800B959A4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		618182EE25AC476A0051CBAA /* Enroute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enroute.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		618182F125AC476A0051CBAA /* EnrouteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnrouteApp.swift; sourceTree = "<group>"; };
 		618182F325AC476A0051CBAA /* FlightsEnrouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsEnrouteView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				618182F125AC476A0051CBAA /* EnrouteApp.swift */,
 				618182F325AC476A0051CBAA /* FlightsEnrouteView.swift */,
 				6181830625AC54C00051CBAA /* FilterFlights.swift */,
+				614A36BB25B03B2800B959A4 /* MapView.swift */,
 				6181831A25AC7F7D0051CBAA /* L12 */,
 				6181830925AC54D30051CBAA /* FlightAware */,
 				6181831725AC54DD0051CBAA /* FoundationExtensions.swift */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6181832025AC7F7D0051CBAA /* Airport.swift in Sources */,
+				614A36BC25B03B2800B959A4 /* MapView.swift in Sources */,
 				6181831525AC54D30051CBAA /* FlightAware+Enroute.swift in Sources */,
 				618182FB25AC476A0051CBAA /* Persistence.swift in Sources */,
 				6181830725AC54C00051CBAA /* FilterFlights.swift in Sources */,
